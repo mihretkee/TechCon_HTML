@@ -1,47 +1,49 @@
-<!-- Introduction Section -->
- <header>
-<section id="introduction">
-  <h2>Introduction</h2>
-  <p>Hello! My name is [Your Name], and I’m an aspiring web developer passionate about building creative and useful websites. I’m currently learning full-stack development and excited to showcase my projects.</p>
-</section>
-</header>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Register</title>
+</head>
+<body>
 
-<!-- Projects Section -->
-<section id="projects">
-  <h2>Projects</h2>
+  <header>
+    <h1>Register for TechCon 2024</h1>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="schedule.html">Schedule</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
 
-  <article class="project">
-    <h3>Portfolio Website</h3>
-    <p>A personal portfolio website to showcase my skills and projects in a clean and professional layout.</p>
-    <a href="https://your-portfolio-link.com" target="_blank">View Project</a>
-  </article>
+  <main>
+    <form action="#" method="post">
+      <label for="name">Full Name:</label>
+      <input type="text" id="name" name="name" required><br>
 
-  <article class="project">
-    <h3>To-Do App</h3>
-    <p>A simple to-do list app built using HTML, CSS, and JavaScript to help users stay organized.</p>
-    <a href="https://your-todo-app-link.com" target="_blank">View Project</a>
-  </article>
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required><br>
 
-</section>
+      <label for="password">Password:</label>
+      <input type="password" id="password" name="password" required><br>
 
-<!-- About Me Section -->
-<section id="about">
-  <h2>About Me</h2>
-  <p>I have a background in design and a growing interest in coding and software development. I'm currently studying full-stack web development.</p>
-  <ul>
-    <li>Proficient in HTML, CSS, and JavaScript</li>
-    <li>Learning backend technologies like Node.js and Express</li>
-    <li>Enjoy sewing, digital art, and solving tech challenges</li>
-  </ul>
-</section>
+      <label for="confirm-password">Confirm Password:</label>
+      <input type="password" id="confirm-password" name="confirm-password" required><br>
 
-<!-- Contact Section -->
-<section id="contact">
-  <h2>Contact</h2>
-  <p>You can reach me by email or follow me on my professional profiles:</p>
-  <ul>
-    <li>Email: <a href="mailto:your.email@example.com">your.email@example.com</a></li>
-    <li><a href="https://www.linkedin.com/in/yourprofile" target="_blank">LinkedIn</a></li>
-    <li><a href="https://github.com/yourgithub" target="_blank">GitHub</a></li>
-  </ul>
-</section>
+      <label>
+        <input type="checkbox" name="terms" required>
+        I agree to the terms and conditions
+      </label><br>
+
+      <button type="submit">Register Now</button>
+    </form>
+  </main>
+
+  <footer>
+    <p>Copyright © 2024 TechCon - <a href="https://example.com" target="_blank">here</a></p>
+  </footer>
+
+</body>
+</html>
